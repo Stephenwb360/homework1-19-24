@@ -1,0 +1,57 @@
+1 2 3 4 5 6 7 8 9 10 
+6 7 8 9 10 
+6 7 8 9 10 11 12 13 14 15 
+6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+13 14 15 16 17 18 19 
+13 14 15 16 17 18 19 
+Q==R is true
+
+13 14 15 16 17 18 19 20 
+13 14 15 16 17 18 19 200 
+Q==R is false
+
+
+My New Testing Starts here:
+Printing list:
+5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+Prepending list:
+25 24 23 22 21 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+Length of list is: 21
+Index (should be -1) of list Steph is: -1
+Moved cursor under front element
+Index of cursor is: 0
+Moved cursor to the next element
+Index of cursor is: 1
+Index should be 2, Index: 2
+
+Inserting an element before the cursor at index: 2
+25 24 42 23 22 21 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+Cursor element at Index: 3 is 23
+Cursor element at Index: 1 is 42
+Cursor element at Index: 4 is 22
+Inserting element 420 after Index: 4
+25 24 42 23 22 420 21 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+Cursor element at Index: 5 is 420
+Cursor element at Index: 6 is 21
+Deleting cursor element at Index: 6
+25 24 42 23 22 420 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+Moved cursor to front. Cursor element at Index: 0 is 25
+Deleting front and back elements of list
+24 42 23 22 420 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+Cursor element at Index: 0 is 24
+Cursor element at Index: 1 is 42
+Moving cursor to last element in list. Index: 1
+Cursor element at Index: 19 is 19
+24 42 23 22 420 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+Deleting last element in list
+24 42 23 22 420 5 6 7 8 9 10 11 12 13 14 15 16 17 18 
+Cursor element at Index: 18 is 18
+Printing copy of list Steph:
+24 42 23 22 420 5 6 7 8 9 10 11 12 13 14 15 16 17 18 
+deleting list copy
+
+Front and Back values of list Steph are 24 and 18
+24 42 23 22 420 5 6 7 8 9 10 11 12 13 14 15 16 17 18 
+Cursor element at Index: 18 is 18
+Index of cursor in copy is: 0
+3 1 
